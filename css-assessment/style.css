@@ -142,12 +142,24 @@ body {
 }
 
 @media (min-width: 641px) {
+
+    .header h1 {
+        margin-left: 2em;
+    }
+
     .header p {
         display: block;
+        margin: 30px 20px;
     }
 
     .landing {
+        display: flex;
+        text-align: left;
         margin: 5em;
+    }
+
+    .landing a {
+        margin: 0;
     }
 
     .landing-image {
