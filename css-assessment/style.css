@@ -41,7 +41,7 @@ body {
     text-decoration: none;
 }
 
-.landing, .choice {
+.landing, .choice .content {
     text-align: center;
     display: block;
     margin: 10px 20px;
@@ -78,7 +78,7 @@ body {
 }
 
 .booking input {
-    border: 1px solid gray;
+    border: 0.5px solid #858585;
     border-radius: 10px;
     height: 30px;
     margin: 5%;
@@ -94,6 +94,22 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     width: 100%;
+}
+
+.boxes {
+    background-color: #F4F7FA;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.boxes h1 {
+    color: #8EE5D1;
+}
+
+.boxes p {
+    color: #3C3C3C;
+    font-weight: 300;
 }
 
 .footer {
