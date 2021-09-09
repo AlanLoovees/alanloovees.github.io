@@ -103,18 +103,18 @@ body {
     width: 82%;
 }
 
-.boxes {
+.box {
     background-color: #F4F7FA;
     border-radius: 10px;
     margin: 20px;
     padding: 20px;
 }
 
-.boxes h1 {
+.box h1 {
     color: #8EE5D1;
 }
 
-.boxes p {
+.box p {
     color: #3C3C3C;
     font-weight: 300;
 }
@@ -162,7 +162,23 @@ body {
         margin: 0;
     }
 
-    .landing-image {
-        max-width: 40%;
+    .booking {
+        display: flex;
+    }
+
+    .booking-button {
+        height: 30px;
+        width: 150px;
+        margin: 5%;
+    }
+
+    .choice .content p {
+        margin: auto;
+        width: 65%;
+    }
+
+    .boxes {
+        display: flex;
+        margin: 2em;
     }
 }
