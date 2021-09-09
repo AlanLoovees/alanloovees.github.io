@@ -1,5 +1,6 @@
 body {
     font-family: Helvetica;
+    margin: 0;
 }
 
 .header {
@@ -40,14 +41,20 @@ body {
     text-decoration: none;
 }
 
-.landing {
+.landing, .choice {
     text-align: center;
     display: block;
     margin: 10px 20px;
 }
 
-.landing p {
+.landing h1 {
+    font-size: 3em;
+}
+
+.landing p, .choice p {
     color: #3C3C3C;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 .landing a {
@@ -84,6 +91,24 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     width: 100%;
+}
+
+.footer {
+    background-color: #F4F7FA;
+    padding: 1em;
+}
+
+.footer h1 {
+    color: black;
+}
+
+.footer .contact, .footer .about {
+    color: #3C3C3C;
+    font-size: 1.3em;
+}
+
+.contact-email {
+    font-weight: 600;
 }
 
 @media (min-width: 641px) {
