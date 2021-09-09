@@ -164,12 +164,17 @@ body {
 
     .booking {
         display: flex;
+        padding-bottom: 0;
+    }
+
+    .booking input {
+        margin: 5% 0 5% 5%;
     }
 
     .booking-button {
-        height: 30px;
+        height: 15px;
         width: 150px;
-        margin: 5%;
+        margin: 5% 5% 5% 10px;
     }
 
     .choice .content p {
