@@ -128,9 +128,13 @@ body {
     color: black;
 }
 
+.footer .contact {
+    padding-top: 1em;
+}
+
 .footer .contact, .footer .about {
     color: #3C3C3C;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .contact-email {
