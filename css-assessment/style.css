@@ -61,11 +61,14 @@ body {
     background-color: #8EE5D1;
     border-radius: 20px;
     color: #3C3C3C;
+    font-weight: 600;
     padding: 10px 20px;
+    margin: 30px;
     text-decoration: none;
 }
 
 .landing-image img {
+    margin: 50px 0;
     max-width: 100%;
 }
 
