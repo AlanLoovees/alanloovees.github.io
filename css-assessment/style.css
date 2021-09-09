@@ -74,7 +74,8 @@ body {
 
 .booking {
     background-color: #F4F7FA;
-    margin: 0;
+    margin: auto;
+    padding-bottom: 5%;
 }
 
 .booking input {
@@ -87,13 +88,19 @@ body {
 }
 
 .booking a {
-    background-color: #8EE5D1;
-    border-radius: 10px;
     color: #3C3C3C;
     font-weight: 600;
-    padding: 10px 20px;
     text-decoration: none;
     width: 100%;
+}
+
+.booking-button {
+    background-color: #8EE5D1;
+    border-radius: 10px;
+    margin: 0 5%;
+    padding: 10px 20px;
+    text-align: center;
+    width: 82%;
 }
 
 .boxes {
