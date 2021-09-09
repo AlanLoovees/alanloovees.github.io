@@ -1,0 +1,101 @@
+body {
+    font-family: Helvetica;
+}
+
+.header {
+    color: #3C3C3C;
+    display: flex;
+    font-weight: 600;
+}
+
+.auth {
+    position: absolute;
+    right: 20px; 
+    top: 30px;
+    margin: 10px;
+}
+
+.header h1 {
+    color: black;
+    margin-left: 20px;
+}
+
+.header p {
+    display: none;
+}
+
+.header .login {
+    color: #3C3C3C;
+    height: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.header .signup {
+    background-color: #8EE5D1;
+    border-radius: 20px;
+    color: #3C3C3C;
+    height: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.landing {
+    text-align: center;
+    display: block;
+    margin: 10px 20px;
+}
+
+.landing p {
+    color: #3C3C3C;
+}
+
+.landing a {
+    background-color: #8EE5D1;
+    border-radius: 20px;
+    color: #3C3C3C;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.landing-image img {
+    max-width: 100%;
+}
+
+.booking {
+    background-color: #F4F7FA;
+    margin: 0;
+}
+
+.booking input {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    margin: 5%;
+    padding-left: 10px;
+    width: 87%;
+}
+
+.booking a {
+    background-color: #8EE5D1;
+    border-radius: 10px;
+    color: #3C3C3C;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+}
+
+@media (min-width: 641px) {
+    .header p {
+        display: block;
+    }
+
+    .landing {
+        margin: 5em;
+    }
+
+    .landing-image {
+        max-width: 40%;
+    }
+}
